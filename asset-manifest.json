@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/brewer-finder/static/css/main.b9da8853.css",
+    "main.js": "/brewer-finder/static/js/main.5cabc68d.js",
+    "static/js/453.e85a3e26.chunk.js": "/brewer-finder/static/js/453.e85a3e26.chunk.js",
+    "static/media/pexels-pixabay-159291.jpg": "/brewer-finder/static/media/pexels-pixabay-159291.e6abdd6ca120090a41be.jpg",
+    "index.html": "/brewer-finder/index.html",
+    "main.b9da8853.css.map": "/brewer-finder/static/css/main.b9da8853.css.map",
+    "main.5cabc68d.js.map": "/brewer-finder/static/js/main.5cabc68d.js.map",
+    "453.e85a3e26.chunk.js.map": "/brewer-finder/static/js/453.e85a3e26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9da8853.css",
+    "static/js/main.5cabc68d.js"
+  ]
+}
