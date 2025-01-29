@@ -1,0 +1,128 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px; /* Add padding around the card container */
+}
+
+.card {
+  width: calc(33.33% - 20px); /* 33.33% width for each card with spacing */
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color:blue; /* Light gray background color */
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+/* AboutUs.css */
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.about-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-content p {
+  margin-bottom: 15px;
+}
+/* AboutUs.css */
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.lively-title {
+  animation: pulse 2s infinite alternate;
+}
+
+
+/* Contact.css */
+
+.contact-container {
+  background-color: #0b4f92;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 32px;
+  color: #e3edf7;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-info {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
